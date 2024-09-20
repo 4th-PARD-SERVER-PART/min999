@@ -1,4 +1,4 @@
-package com.pard.server.Assignment1.page;
+package com.pard.server.Assignment1;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
