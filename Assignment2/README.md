@@ -5,6 +5,8 @@
 <br/>
 <br/>
 ## POST,star는 난이도입니다
+![image](https://github.com/user-attachments/assets/d2962526-be26-4eb6-b92d-325c68580216)
+
 ![image](https://github.com/user-attachments/assets/7db49359-0228-47c7-81b1-3080076e90a6)
 
 ## GET
