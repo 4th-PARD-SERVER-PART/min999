@@ -1,11 +1,9 @@
 # CRUD
 ## 영어단어장
 ---
-## POST,star는 난이도입니다
+
+> ## POST,star는 난이도입니다
 ![image](https://github.com/user-attachments/assets/7db49359-0228-47c7-81b1-3080076e90a6)
-
-
-
 
 ## GET
 ![get](https://github.com/user-attachments/assets/8eee873e-c0c0-4dbe-8621-650f29bad0bc)
