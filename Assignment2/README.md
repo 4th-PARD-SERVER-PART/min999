@@ -7,7 +7,8 @@
 
 ## POST
 ![image](https://github.com/user-attachments/assets/8615a515-cbb5-4426-a53f-8b7d6be47396)
-star는 난이도입니다.
+<br/>
+**star는 난이도입니다.**
 <br/>
 <br/>
 ## GET
@@ -16,12 +17,14 @@ star는 난이도입니다.
 <br/>
 ## GETByNum
 ![image](https://github.com/user-attachments/assets/0a2241bb-193a-4711-b763-fc62b2c799a3)
-num으로 찾기 가능!
+<br/>
+**num으로 찾기 가능!**
 <br/>
 <br/>
 ## Update!
 ![image](https://github.com/user-attachments/assets/033bd7dc-40c7-4c4c-b775-e6bbc8c356e3)
-num으로 updater가능!
+<br/>
+**num으로 updater가능!**
 ![image](https://github.com/user-attachments/assets/766da024-327f-4caf-a125-bb91a36a0b43)
 
 
