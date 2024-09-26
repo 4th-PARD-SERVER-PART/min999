@@ -19,11 +19,11 @@
 <br/>
  **num으로 찾기 가능!**
 <br/>
+<br/>
 ## Update!
 ![image](https://github.com/user-attachments/assets/033bd7dc-40c7-4c4c-b775-e6bbc8c356e3)
 <br/>
-<br/>
- **num으로 updater가능!**
+### num으로 updater가능!
 <br/>
 ![image](https://github.com/user-attachments/assets/766da024-327f-4caf-a125-bb91a36a0b43)
 <br/>
