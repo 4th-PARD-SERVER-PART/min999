@@ -13,6 +13,7 @@ import java.security.Timestamp;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,5 +27,10 @@ public class User {
 
     @CreationTimestamp
     private Timestamp createdAt;
+
+    public User(User user) {
+        this.email = user.getEmail();
+        this.password = user.getPassword();
+    }
 
 }

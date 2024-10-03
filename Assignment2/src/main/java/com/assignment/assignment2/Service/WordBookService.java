@@ -20,8 +20,10 @@ public class WordBookService {
     }
 
     public List<WordBookDto> findAll(){
+
         return wordBookRepository.findAll();
     }
+
     public void delete (Long num){
         wordBookRepository.delete(num);
     }
