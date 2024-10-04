@@ -6,7 +6,12 @@
 
 
 ![image](https://github.com/user-attachments/assets/cd8a9f33-a52b-4388-bb8e-0aa8cb76a766) <br/>
-## 이렇게 POST부터 /all로 모든 내용 조회할 수 있다!
+## 이렇게 POST부터 /all로 모든 내용 조회할 수 있다! <br/>
+![image](https://github.com/user-attachments/assets/8c28323d-600f-4863-9a60-1617fbe82403) <br/>
+## 이렇게 삭제랑 <br/>
+![image](https://github.com/user-attachments/assets/56b69209-fc2e-4582-971d-98c1a99ba74c) <br/>
+## findById도 있다..
+<br/>
 ---
 ## CRUD내용이 전과 비슷한 부분이 많아
 ## 내가 인상깊게 생각했던 내용위주로 설명해보겠다
