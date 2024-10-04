@@ -28,12 +28,10 @@
 
 ## 다음은 내가 만든 JPA문법!
 
-![image](https://github.com/user-attachments/assets/0255e857-1235-40cb-b47b-998eb779710b)
-
-<br/> 
-
+![image](https://github.com/user-attachments/assets/0255e857-1235-40cb-b47b-998eb779710b)<br/> 
 ## 이런 느낌으로 4가지만 넣어봤다. <br/>
 ## 특별한 점은 첫 번째에서는 이름을 넣고 가격'만'얻고자  <br/>
+<br/>
 # findByBname
 
 ![image](https://github.com/user-attachments/assets/f28d3831-abf2-4f33-b57e-e0f19a648ffb) <br/>
