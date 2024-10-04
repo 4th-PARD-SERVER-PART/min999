@@ -43,21 +43,16 @@
 ## 두번쨰 findTop1ByOrderByPriceAsc는 그냥 price가장 낮은걸 찾아준다
 ## 기존의 아이디나 이름으로 찾는것과 비슷하다
 ## JPA가 자동으로 해주니 😁😁😁(쉬우니까 사진패스)
-<br/>
-<br/>
+<br/> <br/>
 ## List<Menu> findByPriceBetween(int p1, int p2) 이건 p1과 p2의 값을받아
 ## 그 사이값의 있는 menu들을 보여준다!
 
-![image](https://github.com/user-attachments/assets/982742d4-a304-4b8b-a5ae-0340011ae55f)
-
-<br/>
-
+![image](https://github.com/user-attachments/assets/982742d4-a304-4b8b-a5ae-0340011ae55f) <br/>
 ## 처음에 사이값이 목록으로 나올줄 모르고
 ## 그냥 Menu했다가 계속 오류떠서 힘들었다
 ## 덕분에 List랑 스트림 Map(->)좀 익숙해짐
 
-<br/>
-<br/>
+<br/> <br/>
 
 ## 마지막 JPA
 ## findAllByOrderByUserSignupTimeAsc
