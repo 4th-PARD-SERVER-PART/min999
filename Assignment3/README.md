@@ -31,6 +31,7 @@
 
 ![image](https://github.com/user-attachments/assets/0255e857-1235-40cb-b47b-998eb779710b)<br/> 
 ## 이런 느낌으로 4가지만 넣어봤다. <br/>
+<br/> <br/>
 ## 특별한 점은 findByBname에서 이름을 넣고 가격'만'얻고자  <br/>
 <br/>
 
