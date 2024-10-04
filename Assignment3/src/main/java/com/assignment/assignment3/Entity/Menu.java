@@ -19,7 +19,7 @@ import java.sql.Timestamp;
 public class Menu {
 @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long menuid;
+    private Long menuId;
 
 
     @Column(name = "bname", nullable = false, length = 20)
@@ -28,11 +28,13 @@ public class Menu {
     @Column(name = "price", nullable = false, length = 20)
     private int price;
 
-    @Column(name ="describie", nullable = false, length = 100)
-    private String des;
+    @Column(name ="description", nullable = false, length = 100)
+    private String description;
+
 
     @CreationTimestamp
     private Timestamp userSignupTime;
+
 
     public void setBname(String bname) {
         this.bname = bname;
@@ -42,8 +44,8 @@ public class Menu {
         this.price = price;
     }
 
-    public void setDes(String des) {
-        this.des = des;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
 

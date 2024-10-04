@@ -15,8 +15,8 @@ JpaRepository<Entity class, ID 타입> ID타입 다르면 런타임떄 오류남
 
 */
 public interface MenuRepository extends JpaRepository<Menu, Long> {
-    Menu findByName(String name);
-    Menu findCheapestMenu(); //제일 싼거 찾아와
-    Menu findByPriceBetween(int p1, int p2); //p1과p2 가격의 사이인 메뉴 찾아와
-    List<Menu> findByDescriptionOrderByLengthDesc();//설명문이 가장긴순서로 내림차순
+    Menu findByBname(String bname);
+    Menu findTop1ByOrderByPriceAsc(); //제일 싼거 찾아와
+    List<Menu> findByPriceBetween(int p1, int p2); //p1과p2 가격의 사이인 메뉴 찾아와
+    List<Menu> findAllByOrderByUserSignupTimeAsc();//시간기준으로 오름차순
 }

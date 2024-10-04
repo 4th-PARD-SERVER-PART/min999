@@ -51,7 +51,7 @@ public class MenuController {
     }
 
     @GetMapping("/between")
-    public MenuDto between(@RequestParam int p1, @RequestParam int p2) {
+    public List<MenuDto> between(@RequestParam int p1, @RequestParam int p2) {
         return menuService.between(p1,p2);
     }
 
@@ -65,7 +65,7 @@ public class MenuController {
     ////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////
 
-    @PatchMapping("/{menuid}")//id로 수정
+    @PatchMapping("/{menuId}")//id로 수정
     public void update(@PathVariable Long menuId, @RequestBody MenuDto menuDto) {
         menuService.updateById(menuId, menuDto);
 

@@ -13,5 +13,7 @@ public class MenuDto {
 
     private String bname;
     private int price;
-    private String des;//설명이에용
+    private String description;//설명이에용
+    private Long menuId;
+
 }
