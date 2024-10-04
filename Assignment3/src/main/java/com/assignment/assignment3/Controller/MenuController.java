@@ -58,7 +58,7 @@ public class MenuController {
 
     @GetMapping("/desc")
     public List<MenuDto> findByDesc() {
-        return menuService.findByDescriptionOrderByLengthDesc();
+        return menuService.findAllByOrderByUserSignupTimeAsc();
     }
 
     ////////////////////////////////////////////////////////////////////////////////////

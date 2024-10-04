@@ -20,3 +20,4 @@ public interface MenuRepository extends JpaRepository<Menu, Long> {
     List<Menu> findByPriceBetween(int p1, int p2); //p1과p2 가격의 사이인 메뉴 찾아와
     List<Menu> findAllByOrderByUserSignupTimeAsc();//시간기준으로 오름차순
 }
+

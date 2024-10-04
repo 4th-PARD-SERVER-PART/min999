@@ -89,7 +89,6 @@ public class MenuService {
         List<MenuDto> menuDtos = menuList.stream().map(menu -> //람다식 ㅋㅋ menuList만들면 알아서 menu로 하나의 객체인식
                 MenuDto.builder()
                         .menuId(menu.getMenuId())
-                        .menuId(menu.getMenuId())
                         .bname(menu.getBname())
                         .price(menu.getPrice())
                         .description(menu.getDescription())
@@ -97,11 +96,11 @@ public class MenuService {
         return menuDtos;
     }
 
-    public List<MenuDto> findByDescriptionOrderByLengthDesc(){
+    public List<MenuDto> findAllByOrderByUserSignupTimeAsc(){
         List<Menu> menuList = menuRepository.findAllByOrderByUserSignupTimeAsc();
         //일단 객체 만들고
         //객체를 dto로
-        List<MenuDto> menuDtos = menuList.stream().map(menu -> //람다식 ㅋㅋ menuList만들면 알아서 menu로 하나의 객체인식
+        List<MenuDto> menuDtos = menuList.stream().map(menu -> //menuList만들면 알아서 menu로 하나의 객체인식
                 MenuDto.builder()
                         .menuId(menu.getMenuId())
                         .bname(menu.getBname())

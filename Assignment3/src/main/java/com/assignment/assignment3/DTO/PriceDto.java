@@ -13,3 +13,4 @@ import lombok.*;
 public class PriceDto {
     private int price;
 }
+
