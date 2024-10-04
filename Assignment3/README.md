@@ -44,6 +44,8 @@
 > **기존의 아이디나 이름으로 찾는것과 비슷하다** <br/>
 > **JPA가 자동으로 해주니 😁😁😁(쉬우니까 사진패스)**
 <br/> <br/>
+<br/>
+
 # List<Menu> findByPriceBetween(int p1, int p2)
 ## 이건 p1과 p2의 값을받아 그 사이값의 있는 menu들을 보여준다!
 
