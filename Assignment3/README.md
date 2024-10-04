@@ -40,7 +40,8 @@
 ## 이렇게 PriceDto라는 Dto를 새로 만들어서 리턴값으로 해봤다
 <br/>
 
-## 두번쨰 findTop1ByOrderByPriceAsc는 그냥 price가장 낮은걸 찾아준다
+# findTop1ByOrderByPriceAsc
+## 요건 price가장 낮은걸 찾아준다
 ## 기존의 아이디나 이름으로 찾는것과 비슷하다
 ## JPA가 자동으로 해주니 😁😁😁(쉬우니까 사진패스)
 <br/> <br/>
