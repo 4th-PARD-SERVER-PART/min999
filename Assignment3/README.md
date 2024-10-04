@@ -26,7 +26,8 @@
 ![image](https://github.com/user-attachments/assets/8e72c899-9926-42ed-b536-ac6d9cb0fc85)<br/>
 ## 기본적으로 찾고 삭제하고 수정하는 기능들이 모두 id로 부터나와서 <br/>
 ## 아이디를 출력하고자 MenuDto에 menuid를 넣었으나 <br/>
-## 수정부분엔 id수정은 있으면 안될것 같아서 뻇다.
+## 수정부분에는 id수정은 있으면 안될것 같아서
+## update메서드 안에 idset(x)
 
 
 <br/>
