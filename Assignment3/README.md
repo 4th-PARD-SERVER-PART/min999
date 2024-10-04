@@ -12,7 +12,7 @@
 ![image](https://github.com/user-attachments/assets/56b69209-fc2e-4582-971d-98c1a99ba74c) <br/>
 ## findById도 있다..
 <br/>
----
+
 ## CRUD내용이 전과 비슷한 부분이 많아
 ## 내가 인상깊게 생각했던 내용위주로 설명해보겠다
 
