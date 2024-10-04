@@ -41,7 +41,6 @@
 ![image](https://github.com/user-attachments/assets/f28d3831-abf2-4f33-b57e-e0f19a648ffb)
 
 <br/>
-
 ## 이렇게 PriceDto라는 Dto를 새로 만들어서 리턴값으로 해봤다
 
 ## 두번쨰 findTop1ByOrderByPriceAsc는 그냥 price가장 낮은걸 찾아준다
