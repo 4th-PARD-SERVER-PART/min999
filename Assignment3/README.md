@@ -56,7 +56,7 @@
 
 ![image](https://github.com/user-attachments/assets/982742d4-a304-4b8b-a5ae-0340011ae55f) <br/>
 ## 처음에 사이값이 목록으로 나올줄 모르고
-## 그냥 Menu했다가 계속 오류떠서 힘들었다
+## List<Menu>안하고 그냥 Menu했다가 계속 오류떠서 힘들었다
 ## 덕분에 List랑 스트림 Map(->)좀 익숙해짐
 
 <br/> <br/>
