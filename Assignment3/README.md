@@ -7,17 +7,19 @@
 
 ![image](https://github.com/user-attachments/assets/cd8a9f33-a52b-4388-bb8e-0aa8cb76a766) <br/>
 ## 이렇게 POST부터 /all로 모든 내용 조회할 수 있다!
+## CRUD내용이 전과 비슷한 부분이 많아
+## 내가 인상깊게 생각했던 내용위주로 설명해보겠다
 
 <br/>
 <br/>
-
+<br/>
+## UPDATE
 ![image](https://github.com/user-attachments/assets/2d6e01d7-e5cd-4653-b6ce-4364826e083c)
 ![image](https://github.com/user-attachments/assets/8e72c899-9926-42ed-b536-ac6d9cb0fc85)<br/>
-
-## 아이디로 수정가능하다. <br/>
 ## 기본적으로 찾고 삭제하고 수정하는 기능들이 모두 id로 부터나와서 <br/>
 ## 아이디를 출력하고자 MenuDto에 menuid를 넣었으나 <br/>
 ## 수정부분엔 id수정은 있으면 안될것 같아서 뻇다.
+
 
 <br/>
 <br/>
