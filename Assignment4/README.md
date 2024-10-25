@@ -7,7 +7,7 @@
 <br/><br/>
 ## 연관관계
 ### 1. user -> post = OneToMany   
-### post -> user = ManyToOne   
+### post -> user = ManyToOne   <br/>
 ### 2. post -> like = OneToMany
 ### like -> post = ManyToOne    
 ### 3.   post -> like = OneToMany
