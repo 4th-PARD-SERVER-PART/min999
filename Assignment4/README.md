@@ -64,8 +64,9 @@
 ![image](https://github.com/user-attachments/assets/f0be5921-3513-41f2-8b65-8034e6126f5c)
 ### 이게 내 좋아요 만드는 코드인데
 ### 덕분에  @Transactional이걸 배움
+### 처음엔 객체 그대로 가져다 쓰다가 필요없을것 같아서 user_id랑 post_id 조합만 보는 걸로 바꿈
 <br/><br/>
-
+### 이번에 하면 빌더 많이 써서..난 이제...빌더가..조아...멋있어...보기좋아..
 
 
 
