@@ -106,6 +106,8 @@
 <br/><br/>
 ### 아름답다.
 <br/><br/>
+![image](https://github.com/user-attachments/assets/35efb801-9216-4609-9890-59136bd5399b)
+<br/><br/>
 ### like는 post 두번하면 지워지는 걸로 함
 <br/><br/>
 
