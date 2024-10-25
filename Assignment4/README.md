@@ -16,10 +16,14 @@
 ###      like -> post = ManyToOne
 <br/><br/>
 ## 기능
-### 1.Post
-### http://localhost:8080/user 
+### post 
+### - http://localhost:8080/user 
 ![image](https://github.com/user-attachments/assets/50ca6661-0b9d-4ede-9bb5-a98ed1002c8e)
-
+<br/><br/>
+### http://localhost:8080/post/{user_id}
+![image](https://github.com/user-attachments/assets/9206dbac-5d5a-4ac0-a669-1381322b62a0)
+<br/><br/>
+### http://localhost:8080/like/{user_id}/{post_id}
 
 ### user_id로 user 정보 불러오기
 ### user_id로 작성한 포스트 불러오기
