@@ -2,6 +2,7 @@ package com.example.pard.Assignment4.post.controller;
 
 import com.example.pard.Assignment4.post.dto.PostReqDto;
 import com.example.pard.Assignment4.post.dto.PostResDto;
+import com.example.pard.Assignment4.post.entity.Post;
 import com.example.pard.Assignment4.post.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -28,6 +29,17 @@ public class PostController {
     public PostResDto.PostLikeResDto readUser(@PathVariable Long postId){
         return postService.readUser(postId);
     } //포스트아이디로 좋아요누른 유저들 보기
+
+    @PatchMapping("/{postId}") //수정
+    public PostResDto.PostReadResDto update(@PathVariable Long postId,
+                                            @RequestBody PostReqDto.PostCreateReqDto req){
+        return postService.update(postId,req);
+    }
+
+    @DeleteMapping("/{postId}")
+    public void delete(@PathVariable Long postId){
+        postService.delete(postId);
+    }
 
 
 }

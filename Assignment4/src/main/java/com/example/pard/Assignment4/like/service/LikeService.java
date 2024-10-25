@@ -28,7 +28,7 @@ public class LikeService {
     public void save (Long userId, Long postId) {
         // 유저아이디,포스트아이디 조합으로 좋아요 누른 기록있는지 확인
         boolean exists = likeRepo.existsByUserIdAndPostId(userId, postId);
-        // 2.이미 like=true로 존재한다면
+        // 이미 like=true로 존재한다면
         if (exists) {
             // 한번 더 누른 것으로 -> 좋아요 취소 like컬럼 사라짐
             likeRepo.deleteByUserIdAndPostId(userId, postId);

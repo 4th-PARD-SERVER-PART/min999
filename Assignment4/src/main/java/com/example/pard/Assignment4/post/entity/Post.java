@@ -29,4 +29,12 @@ public class Post {
     @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private List<Good> goods;
 
+    public void updateTitle(String newTitle) {
+        this.title = newTitle;
+    }
+
+    public void updateText(String newText) {
+        this.text = newText;
+    }
+
 }

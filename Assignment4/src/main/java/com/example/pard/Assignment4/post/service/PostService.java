@@ -13,7 +13,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -65,4 +64,24 @@ public class PostService {
                 .build();
     }
 
+    public PostResDto.PostReadResDto update(Long postId, PostReqDto.PostCreateReqDto req){
+        Post post = postRepo.findById(postId)
+                .orElseThrow(() -> new IllegalArgumentException("해당 포스트를 찾을 수 없습니다.")); //포스트 찾아서
+
+        post.updateTitle(req.getTitle());
+        post.updateText(req.getText());
+
+        postRepo.save(post);
+
+        return  PostResDto.PostReadResDto.builder()
+                .title(req.getTitle())
+                .text(req.getText())
+                .build();
+    }
+
+    public void delete(Long postId){
+        Post post = postRepo.findById(postId)
+                .orElseThrow(() -> new IllegalArgumentException("해당 포스트를 찾을 수 없습니다.")); //포스트 찾아서
+        postRepo.delete(post);
+    }
 }
