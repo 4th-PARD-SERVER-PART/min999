@@ -62,18 +62,27 @@
 ### PatchMapping
 <br/><br/>
 ### http://localhost:8080/user/{user_id}
+![image](https://github.com/user-attachments/assets/163271a1-0e3b-401d-b6ee-238dbd7c818f)
+<br/><br/>
 ### 유저 정보 수정하기
+
 <br/><br/>
 ### http://localhost:8080/post/{post_id}
+![image](https://github.com/user-attachments/assets/f296d242-9207-4671-9885-80d25d66cd9b)
 ### 포스트 정보 수정하기
+
 <br/><br/>
 ---
 ### DeleteMapping
 <br/><br/>
 ### http://localhost:8080/user/{user_id}
+![image](https://github.com/user-attachments/assets/16e35a99-4677-46b7-ac44-4d4978b64ece)
+<br/><br/>
 ### 유저 지우기
 <br/><br/>
 ### http://localhost:8080/post/{post_id}
+![image](https://github.com/user-attachments/assets/ef78c519-2591-4629-a367-2df4395e0867)
+<br/><br/>
 ### 포스트 지우기
 <br/><br/>
 ---
@@ -98,13 +107,6 @@
 <br/><br/>
 ### like는 post 두번하면 지워지는 걸로 함
 <br/><br/>
-![image](https://github.com/user-attachments/assets/07f8607d-ad7d-4d31-95e6-560338818ea6)
-<br/><br/>
-![image](https://github.com/user-attachments/assets/84272cd5-4d88-407e-84d8-ed5355a4e5c4)
-
-
-![image](https://github.com/user-attachments/assets/947cc109-6620-4e96-9c34-59936dbb7608)
-
 
 -------
 ## 느낀점
