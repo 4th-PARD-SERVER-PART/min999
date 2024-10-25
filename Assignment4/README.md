@@ -6,7 +6,7 @@
 - post
 - good
 <br/> <br/>
-### 컬럼   
+## 컬럼   
 ### user = 이름, 학번   
 ### post = title, text    
 ### like = isLike   
