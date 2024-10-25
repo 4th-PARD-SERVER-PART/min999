@@ -94,6 +94,12 @@
 <br/><br/>
 ![image](https://github.com/user-attachments/assets/07f8607d-ad7d-4d31-95e6-560338818ea6)
 <br/><br/>
+![image](https://github.com/user-attachments/assets/84272cd5-4d88-407e-84d8-ed5355a4e5c4)
+![image](https://github.com/user-attachments/assets/d2932565-2ee8-46f9-b566-f65771de5e2b)
+![image](https://github.com/user-attachments/assets/5055f1f7-2193-4c5a-9942-84b47cd66dea)
+![image](https://github.com/user-attachments/assets/947cc109-6620-4e96-9c34-59936dbb7608)
+
+
 -------
 ## 느낀점
 ### 이번에 하면서서 빌더 많이 써서 이젠 빌더가 좋다..
