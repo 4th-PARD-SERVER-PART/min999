@@ -31,14 +31,20 @@
 <br/><br/>
 ### 3. 좋아요 누르기
 ### http://localhost:8080/like/{user_id}/{post_id}
+![image](https://github.com/user-attachments/assets/12efe3c5-1b5c-42a6-b545-2324a14c4229)
+<br/><br/>
 ### 좋아요 기능, 한번 Post하면 좋아요, 한번 더 Post하면 좋아요 취소
 <br/><br/>
 ---
 ### GetMapping
 ### http://localhost:8080/user/{user_id}
+![image](https://github.com/user-attachments/assets/d2932565-2ee8-46f9-b566-f65771de5e2b)
+<br/><br/>
 ### user_id로 user 정보 불러오기
 <br/><br/>
 ### http://localhost:8080/post/{uesr_id}
+![image](https://github.com/user-attachments/assets/5055f1f7-2193-4c5a-9942-84b47cd66dea)
+<br/><br/>
 ### user_id로 작성한 포스트 불러오기
 <br/><br/>
 ### http://localhost:8080/user/like/{user_id}
@@ -95,8 +101,8 @@
 ![image](https://github.com/user-attachments/assets/07f8607d-ad7d-4d31-95e6-560338818ea6)
 <br/><br/>
 ![image](https://github.com/user-attachments/assets/84272cd5-4d88-407e-84d8-ed5355a4e5c4)
-![image](https://github.com/user-attachments/assets/d2932565-2ee8-46f9-b566-f65771de5e2b)
-![image](https://github.com/user-attachments/assets/5055f1f7-2193-4c5a-9942-84b47cd66dea)
+
+
 ![image](https://github.com/user-attachments/assets/947cc109-6620-4e96-9c34-59936dbb7608)
 
 
