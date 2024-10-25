@@ -60,6 +60,40 @@ public class UserService {
                 .build();
     }
     //유저 아이디로 좋아요 누른 글 보여주기
+
+
+    /*
+    @PatchMapping("/{userId}")
+    public UserResDto.UserReadResDto update(@PathVariable Long userId){
+        return userService.update(userId);
+    }
+
+    @DeleteMapping("/{userId}")
+    public void delete(@PathVariable Long userId){
+        userService.delete(userId);
+    }
+    * */
+    public UserResDto.UserReadResDto update(Long userId, UserReqDto.UserCreateReqDto req){
+        User user = userRepo.findById(userId)
+                .orElseThrow(() -> new IllegalArgumentException("해당 유저를 찾을 수 없습니다."));
+
+        user.updateName(req.getName());
+        user.updateNum(req.getNum());
+
+        userRepo.save(user);
+
+        return UserResDto.UserReadResDto.builder()
+                .name(user.getName())
+                .num(user.getNum())
+                .build();
+    }
+
+    public void delete(Long userId){
+        User user = userRepo.findById(userId)
+                .orElseThrow(() -> new IllegalArgumentException("해당 유저를 찾을 수 없습니다."));
+        userRepo.delete(user);
+    }
+
 }
 
 

@@ -28,4 +28,14 @@ public class UserController {
         return userService.readLikeUser(userId);
     }
 
+    @PatchMapping("/{userId}")
+    public UserResDto.UserReadResDto update(@PathVariable Long userId,
+                                            @RequestBody UserReqDto.UserCreateReqDto req ){
+        return userService.update(userId,req);
+    }
+
+    @DeleteMapping("/{userId}")
+    public void delete(@PathVariable Long userId){
+        userService.delete(userId);
+    }
 }

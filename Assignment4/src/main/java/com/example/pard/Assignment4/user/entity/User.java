@@ -30,4 +30,11 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private List<Good> goods;
 
+    public void updateName(String newName){
+        this.name = newName;
+    }
+    public void updateNum(String newNum){
+        this.num = newNum;
+    }
+
 }
