@@ -67,8 +67,9 @@
 ### 처음엔 객체 그대로 가져다 쓰다가 필요없을것 같아서 user_id랑 post_id 조합만 보는 걸로 바꿈
 <br/><br/>
 ### 이번에 하면서서 빌더 많이 써서..난 이제...빌더가..조아...멋있어...보기좋아..
-
-
-
+<br/><br/>
+### 이번에 Dto를 왜 쓰는지 온몸으로 배움
+<br/><br/>
+![image](https://github.com/user-attachments/assets/8562e05f-27f8-48cf-afa1-981d82060ba4)
 
 
