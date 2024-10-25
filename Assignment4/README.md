@@ -88,7 +88,9 @@
 ## Swagger
 ![image](https://github.com/user-attachments/assets/b32fb1bc-e213-45fa-9670-21020924258c)
 <br/><br/>
-### 아름답다. like는 post 두번하면 지워지는 걸로 함
+### 아름답다.
+<br/><br/>
+### like는 post 두번하면 지워지는 걸로 함
 <br/><br/>
 ![image](https://github.com/user-attachments/assets/07f8607d-ad7d-4d31-95e6-560338818ea6)
 <br/><br/>
