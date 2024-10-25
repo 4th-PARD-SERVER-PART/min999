@@ -6,13 +6,11 @@
 ### like = isLike   
 <br/><br/>
 ## 연관관계
-### 1.   user -> post = OneToMany   
-###      post -> user = ManyToOne   
-<br/>
-### 2.   post -> like = OneToMany
-###      like -> post = ManyToOne
-<br/>
-### 2.   post -> like = OneToMany
+### 1. user -> post = OneToMany   
+### post -> user = ManyToOne   
+### 2. post -> like = OneToMany
+### like -> post = ManyToOne    
+### 3.   post -> like = OneToMany
 ###      like -> post = ManyToOne
 
 
