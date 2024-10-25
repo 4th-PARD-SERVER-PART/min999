@@ -53,6 +53,7 @@
 <br/><br/>
 ### http://localhost:8080/post/{post_id}
 ### post_id로 post 정보 불러오기
+![image](https://github.com/user-attachments/assets/45084565-ac8b-464e-8a70-f677c7acf830)
 <br/><br/>
 ### http://localhost:8080/user/like/{user_id}
 ### post_id로 좋아요 해당 post에 좋아요 누른 user_name 목록 불러오기
