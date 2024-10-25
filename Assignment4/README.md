@@ -20,12 +20,16 @@
 <br/><br/>
 ## 기능
 ### PostMapping
+<br/><br/>
+### 1. user값 넣기
 ### http://localhost:8080/user 
 ![image](https://github.com/user-attachments/assets/50ca6661-0b9d-4ede-9bb5-a98ed1002c8e)
 <br/><br/>
+### 2. post 값 넣기
 ### http://localhost:8080/post/{user_id}
 ![image](https://github.com/user-attachments/assets/9206dbac-5d5a-4ac0-a669-1381322b62a0)
 <br/><br/>
+### 3. 좋아요 누르기
 ### http://localhost:8080/like/{user_id}/{post_id}
 ### 좋아요 기능, 한번 Post하면 좋아요, 한번 더 Post하면 좋아요 취소
 <br/><br/>
