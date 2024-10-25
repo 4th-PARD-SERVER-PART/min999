@@ -52,6 +52,25 @@
 ### post_id로 좋아요 해당 post에 좋아요 누른 user_name 목록 불러오기
 ![image](https://github.com/user-attachments/assets/211f1b99-9c57-4810-9211-f8e54654b2b9)
 <br/><br/>
+---
+### PatchMapping
+<br/><br/>
+### http://localhost:8080/user/{user_id}
+### 유저 정보 수정하기
+<br/><br/>
+### http://localhost:8080/post/{post_id}
+### 포스트 정보 수정하기
+<br/><br/>
+---
+### DeleteMapping
+<br/><br/>
+### http://localhost:8080/user/{user_id}
+### 유저 지우기
+<br/><br/>
+### http://localhost:8080/post/{post_id}
+### 포스트 지우기
+<br/><br/>
+---
 ## Code
 ![image](https://github.com/user-attachments/assets/fa44e06e-3756-45b5-a7f4-08880ce69001)
 <br/><br/>
@@ -66,10 +85,24 @@
 ### 덕분에  @Transactional이걸 배움
 ### 처음엔 객체 그대로 가져다 쓰다가 필요없을것 같아서 user_id랑 post_id 조합만 보는 걸로 바꿈
 <br/><br/>
-### 이번에 하면서서 빌더 많이 써서..난 이제 빌더가 조아..
+## Swagger
+![image](https://github.com/user-attachments/assets/b32fb1bc-e213-45fa-9670-21020924258c)
+<br/><br/>
+### 아름답다. like는 post 두번하면 지워지는 걸로 함
+<br/><br/>
+![image](https://github.com/user-attachments/assets/07f8607d-ad7d-4d31-95e6-560338818ea6)
+<br/><br/>
+-------
+## 느낀점
+### 이번에 하면서서 빌더 많이 써서 이젠 빌더가 좋다..
 <br/><br/>
 ### 이번에 Dto를 왜 쓰는지 온몸으로 배움
 <br/><br/>
+### 주석의 중요성도 온몸으로 배움 dto많아지고 복잡해지니까 헷갈림
+<br/><br/>
+### 유저랑 포스트 좋아요 왔다갔다 하면서 변수명 길어지고 이리저리 하니까 갑자기 코드짜다가  이게 어디였더라..하면서 횡설수설 한번씩 함
+<br/><br/>
+### 그리고 id로 객체 가져올떄 옵셔널로 받으면 빌더못씀
 ![image](https://github.com/user-attachments/assets/8562e05f-27f8-48cf-afa1-981d82060ba4)
 
 
