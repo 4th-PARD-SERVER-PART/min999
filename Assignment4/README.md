@@ -4,7 +4,7 @@
 ### user = 이름, 학번   
 ### post = title, text    
 ### like = isLike   
-<br/>
+<br/><br/>
 ## 연관관계
 ### 1.   user -> post = OneToMany   
 ###      post -> user = ManyToOne   
