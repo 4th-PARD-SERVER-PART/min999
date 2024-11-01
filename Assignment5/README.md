@@ -22,7 +22,7 @@
 ### 1. 기존 로그인 화면 (Postman 요청)
 기존에는 사용자 정보를 아래와 같이 POST 방식으로 전송하여 로그인했습니다.
 
-```json
+json
 POST http://localhost:8080/user
 
 {
