@@ -29,3 +29,39 @@ POST http://localhost:8080/user
     "name": "기존 로그인",
     "num": "기존 로그인"
 }
+
+2. Google 로그인 성공 화면
+Google 로그인에 성공하면 다음과 같은 화면이 나타납니다.
+![로그인성공화면](https://github.com/user-attachments/assets/120c27b2-c291-4710-b670-dfe3fd333757)
+
+
+3. 게시물 작성 기능
+로그인 후 게시물 작성 기능을 통해 Google 계정으로 게시물을 작성할 수 있습니다.
+
+
+
+json
+코드 복사
+POST http://localhost:8080/post/1
+Body:
+{
+    "title": "구글로 가져와서 글 써봄",
+    "text": "구글로 가져왔다!"
+}
+![포스트맨_post](https://github.com/user-attachments/assets/c347a3e1-83b4-4130-9f56-f98991e99bd7)
+
+4. Google로 작성한 게시물 확인
+작성한 게시물이 정상적으로 저장되어 조회할 수 있습니다.
+![구글로 글쓴거 확인](https://github.com/user-attachments/assets/6d01f044-1066-4486-8640-975b54a85060)
+
+
+5. 좋아요 기능
+게시물에 대해 좋아요 기능을 추가하였으며, 사용자가 좋아요를 누른 상태를 데이터베이스에서 확인할 수 있습니다.
+![좋아요기능잘됨](https://github.com/user-attachments/assets/30b47784-8a1f-47d0-9258-72037429e449)
+
+
+기술 스택
+Spring Boot
+Google OAuth 2.0
+MySQL
+
