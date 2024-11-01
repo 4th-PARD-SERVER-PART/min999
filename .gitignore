@@ -1,4 +1,6 @@
 # Ignore application properties file
 src/main/resources/application.properties
+
 Assignment5/src/main/resources/application.properties
 seminar5/build/resources/main/application.properties
+
