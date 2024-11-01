@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9a95d9cc-b689-4551-9d41-2ef0d37049d1)
+![1730363148963-9hep2fvdr9a](https://github.com/user-attachments/assets/8eab367f-a9da-462a-b1ad-c80a8b444a69)
 
 # Google 로그인 기능 추가 프로젝트
 
