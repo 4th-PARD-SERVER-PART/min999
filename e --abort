@@ -1,0 +1,37 @@
+[33m3695de8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: rebase (finish): returning to refs/heads/main
+[33m3695de8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{1}: rebase (pick): Update README.md
+[33mb380ee8[m HEAD@{2}: rebase (pick): Update README.md
+[33mdfb0abf[m HEAD@{3}: rebase (pick): Update README.md
+[33m3b66c11[m HEAD@{4}: rebase (pick): Update README.md
+[33mb45c41a[m HEAD@{5}: rebase (pick): Update README.md
+[33m74a5a11[m HEAD@{6}: rebase (pick): Update README.md
+[33ma7134b2[m HEAD@{7}: rebase (pick): Update README.md
+[33m49c5da7[m HEAD@{8}: rebase (pick): Update README.md
+[33m4142bec[m HEAD@{9}: rebase (start): checkout HEAD~10
+[33m5465a34[m HEAD@{10}: commit: Create .gitignore
+[33m3c1c88e[m HEAD@{11}: commit: Update .gitignore
+[33m952916e[m HEAD@{12}: commit: add google
+[33m4494cb2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{13}: pull --ff --recurse-submodules --progress origin: Merge made by the 'ort' strategy.
+[33m4142bec[m HEAD@{14}: commit: remove error
+[33m38643dc[m HEAD@{15}: commit: add postService
+[33m9254334[m HEAD@{16}: pull --ff --recurse-submodules --progress origin: Fast-forward
+[33md45b6d6[m HEAD@{17}: pull --ff --recurse-submodules --progress origin: Merge made by the 'ort' strategy.
+[33ma67b9cf[m HEAD@{18}: commit: release
+[33me1661f1[m HEAD@{19}: pull --ff --recurse-submodules --progress origin: Merge made by the 'ort' strategy.
+[33mcec2c51[m HEAD@{20}: commit: assignment3
+[33me6a8f16[m HEAD@{21}: commit: assignment3
+[33mf62fe30[m HEAD@{22}: pull --ff --recurse-submodules --progress origin: Merge made by the 'ort' strategy.
+[33m12fd5b2[m HEAD@{23}: commit: D
+[33m54c5ef3[m HEAD@{24}: commit: DD
+[33m1aaa88e[m HEAD@{25}: pull --ff --recurse-submodules --progress origin: Merge made by the 'ort' strategy.
+[33m47203d2[m HEAD@{26}: commit: HW3
+[33m0d97e7e[m HEAD@{27}: reset: moving to HEAD
+[33m0d97e7e[m HEAD@{28}: commit: zz
+[33m24dacbd[m HEAD@{29}: commit: gg
+[33m5f87d89[m HEAD@{30}: pull --ff --recurse-submodules --progress origin: Fast-forward
+[33m3543723[m HEAD@{31}: commit: gg
+[33m58cb393[m HEAD@{32}: commit: HW1
+[33m1b8e452[m HEAD@{33}: commit: week3
+[33me8fe256[m HEAD@{34}: commit: OT
+[33m09362b4[m HEAD@{35}: commit: OT
+[33mf986761[m HEAD@{36}: commit (initial): OT
