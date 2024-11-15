@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1ca8bc4f-89ac-45c4-909c-b243ded4ad80)
+![image](https://github.com/user-attachments/assets/cd7ebe98-d2e1-44dc-944c-b2b9fe26c978)
 # **Keeper**
 
 ## **프로젝트 소개**
