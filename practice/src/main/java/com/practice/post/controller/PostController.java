@@ -22,6 +22,7 @@ public class PostController {
 
     private final PostService postService;
 
+
     @Operation(summary = "게시글 정보 저장",
             description = "새로운 게시글 정보를 생성하고 저장합니다. <br />"
                     + "@param PostReq.CreateDto - 게시글 제목,내용, userId - 작성자아이디 <br />"
@@ -33,6 +34,22 @@ public class PostController {
                                        @PathVariable Long userId) {
         postService.create(req,userId);
         return ResponseEntity.status(HttpStatus.CREATED).build();
+    }
+
+
+    @Operation(
+            summary = "게시물 삭제",
+            description = """
+                    게시물 ID를 기준으로 게시물을 삭제합니다.
+                    @param postId - 삭제할 게시물의 ID
+                    @return 성공 시 204 No Content 상태 반환
+                    @exception 게시물 ID가 존재하지 않을 경우 404 Not Found 반환
+                    """
+    )
+    @DeleteMapping("/delete/{postId}")
+    public ResponseEntity<Void> deletePost(@PathVariable Long postId) {
+        postService.deletePost(postId);
+        return ResponseEntity.noContent().build();  // 204 No Content 응답
     }
 
 

@@ -25,7 +25,10 @@ public class PostService {
         postRepo.save(p);
     }
 
-    
 
-
+    public void deletePost(Long postId) {
+            Post post = postRepo.findById(postId)
+                    .orElseThrow(() -> new NoMatchingDataException("해당 포스트를 찾을 수 없습니다.")); //포스트 찾아서
+            postRepo.delete(post);
+    }
 }

@@ -17,8 +17,13 @@ public class TeacherRes {
         private List<PostRes.PostReadResDto> posts;
     } //포스트 읽어서 넘겨주기
 
-
-
+    @Builder
+    @AllArgsConstructor
+    @NoArgsConstructor
+    public static class ReadDto{
+        private String name;
+        private String text;
+    } //포스트 읽어서 넘겨주기
 
 
 }

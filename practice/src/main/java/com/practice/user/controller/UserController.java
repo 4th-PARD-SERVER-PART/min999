@@ -32,66 +32,19 @@ public class UserController {
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
-
-
-    @Operation(summary = "유저 정보 받아오기",
-            description = "유저 ID로 사용자 정보를 조회합니다. <br />"
-                    + "@param userId - 조회할 유저의 ID <br />"
-                    + "@return 이름,번호와 200 OK 상태 반환 <br />"
-                    + "@exception 유저 ID가 존재하지 않으면 404 Not Found 반환"
-    )
-    @GetMapping("/{UserId}")
-    public ResponseEntity<UserRes.UserReadDto> read(@PathVariable Long UserId){
-        return ResponseEntity.status(HttpStatus.OK).body(userService.read(UserId));
-    }
-
-
-    @Operation(summary = "유저 정보 수정",
-            description = "유저 ID를 기준으로 정보를 수정합니다. <br />"
-                    + "@param userId - 수정할 유저의 ID <br />"
-                    + "@param req - 수정할 유저 정보가 담긴 UserReq.CreateDto <br />"
-                    + "@return 수정된 이름,번호가 담긴 UserRes.UpdateDto와 200 OK 상태 반환 <br />"
-                    + "@exception 유저 ID가 존재하지 않으면 404 Not Found 반환"
-    )
-    @PatchMapping("/{UserId}")
-    public ResponseEntity<UserRes.UserUpdateDto> patch(@PathVariable Long UserId,
-                                                   @RequestBody UserReq.CreateDto req) {
-        UserRes.UserUpdateDto updatedUser = userService.patch(UserId, req);
-        return ResponseEntity.status(HttpStatus.OK).body(updatedUser); // 200 OK 반환
-    }
-
-
-    @Operation(summary = "유저 정보 삭제",
-            description = "유저 ID를 기준으로 유저 정보를 삭제합니다. <br />"
-                    + "@param userId - 삭제할 유저의 ID <br />"
-                    + "@param req - 조회할 유저의 ID <br />"
-                    + "@return 성공 시 204 No Content 상태 반환 <br />"
-                    + "@exception 유저 ID가 존재하지 않으면 404 Not Found 반환"
-    )
-    @DeleteMapping("/{UserId}")
-    public ResponseEntity<Void> delete(@PathVariable Long UserId) {
-        userService.delete(UserId);
-        return ResponseEntity.noContent().build(); // 204 No Content 반환
-    }
-
-
-
-    @Operation(summary = "유저 정보 및 작성한 게시물 가져오기",
-            description = "유저 ID로 사용자 정보를 조회하고, 해당 사용자가 작성한 게시물 정보를 함께 반환합니다. <br />"
-                    + "@param userId - 조회할 유저의 ID <br />"
-                    + "@return 이름, 번호, 작성한 게시물 목록과 200 OK 상태 반환 <br />"
-                    + "@exception 유저 ID가 존재하지 않으면 404 Not Found 반환"
+    @Operation(
+            summary = "유저 게시물 목록 조회",
+            description = """
+                특정 유저가 작성한 게시물 목록을 조회합니다.
+                @param userId - 게시물을 조회할 유저의 ID
+                @return 유저의 게시물 목록과 200 OK 상태 반환
+                @exception 유저 ID가 존재하지 않을 경우 404 Not Found 반환
+                """
     )
     @GetMapping("/{UserId}/posts")
     public ResponseEntity<UserRes.UserReadPostDto> readUserInfoWithPosts(@PathVariable Long UserId){
         return ResponseEntity.status(HttpStatus.OK).body(userService.readUserPosts(UserId));
     }
-
-
-
-
-
-
 
 
 }

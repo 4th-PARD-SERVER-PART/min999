@@ -24,7 +24,7 @@ public class SwaggerConfig {
                 .title("min999(제목이여야하는것)")
                 .description("설명이여야하는것")
                 .version("1.0.0");
-        //
+
     }
 
 }

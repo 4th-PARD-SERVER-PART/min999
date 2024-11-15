@@ -17,10 +17,9 @@ import java.util.List;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private long id;
     private String name;
-    private String phone;
+
 
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
@@ -31,9 +30,6 @@ public class User {
         this.name = newName;
     }
 
-    public void updatePhone(String newPhone){
-        this.phone = newPhone;
-    }
 
 
 }

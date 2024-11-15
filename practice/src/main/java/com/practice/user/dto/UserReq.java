@@ -24,10 +24,6 @@ public class UserReq {
         @NotEmpty
         private String name;
 
-        @Schema(description = "유저번호", example = "01012345678")
-        @NotNull
-        @NotEmpty
-        private String phone;
     }
 
 

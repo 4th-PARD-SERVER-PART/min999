@@ -24,7 +24,6 @@ public class UserRes {
     @NoArgsConstructor
     public static class UserReadDto{
         private String name;
-        private String phone;
     }
 
     @Builder
@@ -32,8 +31,7 @@ public class UserRes {
     @NoArgsConstructor
     public static class UserReadPostDto{
         private String name;
-        private String num;
-        private List<PostRes.PostReadDto> posts;
+        private List<PostRes.PostReadResDto> posts;
     } //포스트 읽어서 넘겨주기
 
 

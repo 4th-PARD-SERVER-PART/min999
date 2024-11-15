@@ -1,5 +1,6 @@
 package com.practice.teacher.controller;
 
+import com.practice.post.dto.PostRes;
 import com.practice.teacher.dto.TeacherReq;
 import com.practice.teacher.dto.TeacherRes;
 import com.practice.teacher.service.TeacherService;
@@ -42,7 +43,7 @@ public class TeacherController {
     }
 
     @GetMapping("/{postId}") //메세지함 자세히 보기
-    public ResponseEntity<TeacherRes.ReadPostDto> readDetail(@PathVariable Long postId){
+    public ResponseEntity<TeacherRes.ReadDto> readDetail(@PathVariable Long postId){
         return ResponseEntity.status(HttpStatus.OK).body(teacherService.readDetail(postId));
     }
 

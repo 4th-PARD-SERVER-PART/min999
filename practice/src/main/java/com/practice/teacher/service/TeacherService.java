@@ -1,6 +1,7 @@
 package com.practice.teacher.service;
 
 
+import com.practice.post.repository.PostRepo;
 import com.practice.teacher.dto.TeacherReq;
 import com.practice.teacher.dto.TeacherRes;
 import com.practice.teacher.entity.Teacher;
@@ -10,6 +11,7 @@ import com.practice.post.entity.Post;
 import com.practice.post.repository.PostRepo;
 import com.practice.exception.NoMatchingDataException;
 import com.practice.user.entity.User;
+import com.practice.user.repository.UserRepo;
 import com.practice.user.repository.UserRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -34,8 +36,6 @@ public class TeacherService {
     }
 
     public TeacherRes.ReadPostDto readtext(){
-       // User user = userRepo.findById(userId)
-         //       .orElseThrow(() -> new NoMatchingDataException("유저아이디 " + userId + " 가 존재하지 않습니다."));
 
         List<Post> posts = postRepo.findAll(); //포스트 정보를 모두 찾아서
         List<PostRes.PostReadResDto> postDtos = PostRes.PostReadResDto.postToDto(posts);
@@ -48,13 +48,14 @@ public class TeacherService {
 
 
     //상세보기
-    public PostReadResDto readDetail(Long postId){
+    public TeacherRes.ReadDto readDetail(Long postId){
 
-        User user = userRepo.findById(postId)
+       Post post = postRepo.findById(postId)
               .orElseThrow(() -> new NoMatchingDataException("포스트 " + postId + " 가 존재하지 않습니다."));
 
-        return TeacherRes.ReadPostDto.builder()
-                .posts(postDtos)
+        return TeacherRes.ReadDto.builder()
+                .name(post.getUser().getName())
+                .text(post.getText())
                 .build();
     }
 
@@ -63,15 +64,6 @@ public class TeacherService {
 
 
 
-         /*   return posts.stream()
-                    .map(post -> new TeacherPostResponse(
-                            post.getId(),
-                            post.getContent(),
-                            post.getUser().getId(),
-                            post.getUser().getName()
-                    ))
-                    .collect(Collectors.toList());
-        */
 
 
 
